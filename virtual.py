@@ -12,7 +12,7 @@ import os
 engine = pyttsx3.init()
 
 # Initialize the OpenAI client
-openai.api_key = "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"  # Replace with your OpenAI API key
+openai.api_key = "OpenAI API key"  
 
 def speak(text):
     """Convert text to speech"""
